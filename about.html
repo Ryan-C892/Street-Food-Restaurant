@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html class="js" lang="en-US">
+<html lang="en-US">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!--JS-->
-<script type="text/javascript">document.documentElement.className = 'js';</script>
-<script defer="" script="js/mySlides.js"></script>
+<!--JQ-->
+<script type="text/javascript" src="js/jquery.js"></script>
 <!--CSS-->
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/chef.css">
@@ -171,24 +170,7 @@
     <div class="legal">&copy; 2020</div>
     </div>
 </footer>
+<!--JS-->
+<script type="text/javascript" src="js/top.js"></script>
 </body>
-<!--TOP-BUTTON-JS-->
-<script>
-    var mybutton = document.getElementById("topBtn");
-    
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-    
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-</script>
 </html>
